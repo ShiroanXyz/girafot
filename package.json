@@ -1,0 +1,24 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "A Discord bot core",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shiroan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiroanXyz/Ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShiroanXyz/Ai/issues"
+  },
+  "homepage": "https://github.com/ShiroanXyz/Ai#readme"
+}
