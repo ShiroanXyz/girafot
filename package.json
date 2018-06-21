@@ -1,7 +1,7 @@
 {
-  "name": "ai",
+  "name": "girafot",
   "version": "1.0.0",
-  "description": "A Discord bot core",
+  "description": "A Discord bot",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^11.3.2",
@@ -11,14 +11,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shiroan",
+  "author": "Scoffgard",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShiroanXyz/Ai.git"
+    "url": "git+https://github.com/Scoffgard/girafot.git"
   },
   "bugs": {
-    "url": "https://github.com/ShiroanXyz/Ai/issues"
+    "url": "https://github.com/Scoffgard/girafot/issues"
   },
-  "homepage": "https://github.com/ShiroanXyz/Ai#readme"
+  "homepage": "https://github.com/Scoffgard/girafot#readme"
 }
