@@ -12,8 +12,7 @@ exports.run = (client, message, args) => {
             description: args
         }
     })} else {
-        delete(timeout = 10000){
-            message.channel.send("Vous n'avez pas le droit");
-        }
+        message.channel.send("Vous n'avez pas le droit");
+        message.delete(1000);
      }
 }
