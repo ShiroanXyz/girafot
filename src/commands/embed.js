@@ -13,5 +13,5 @@ exports.run = (client, message, args) => {
         }
     });//} else {
 //message.channel.send("Vous n'avez pas le droit de faire ca !")
-    };
+   // };
 }
