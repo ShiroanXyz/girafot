@@ -10,8 +10,8 @@ exports.run = (client, message, args) => {
             },
             color: 3447003,
             description: args
-        };
-    })}else{
+        }
+    })} else {
 message.channel.send("Vous n'avez pas le droit de faire ca !")
     };
 }
