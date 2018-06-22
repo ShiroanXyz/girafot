@@ -7,7 +7,7 @@ exports.run = (client, message, args) => {
                 name: `Message par ${message.author.username}`,
                 icon_url: message.author.avatarURL
             },
-            color: 0xff66b3,
+            color: 3447003,
             description: args
         }
     });
