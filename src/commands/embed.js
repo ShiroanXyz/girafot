@@ -1,7 +1,9 @@
 exports.run = (client, message, args) => {
     args = args.join(' ');
     message.delete();
-    message.channel.send({
+    if(!message.member.roles.some(r=>["Arrière-Grand-Père"].includes(r.name)) )
+      return message.channel.send("Désolé, vous n'avez pas le droit de faire ca!")
+    let message.channel.send({
         embed: {
             author: {
                 name: `Message par ${message.author.username}`,
