@@ -1,7 +1,7 @@
 exports.run = (client, message, args) => {
     args = args.join(' ');
     message.delete();
-    if(role.hasPermission('BAN_MEMBERS')){
+    if (role.hasPermission('BAN_MEMBERS')){
     message.channel.send({
         embed: {
             author: {
