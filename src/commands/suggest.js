@@ -4,7 +4,7 @@ exports.run = (client, message, args) => {
     message.channel.send({
         embed: {
             author: {
-                name: `Suggested by ${message.author.username}`,
+                name: `Suggérer par ${message.author.username}`,
                 icon_url: message.author.avatarURL
             },
             color: 0xff66b3,
