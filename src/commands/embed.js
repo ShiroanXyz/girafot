@@ -1,7 +1,7 @@
 exports.run = (client, message, args) => {
     args = args.join(' ');
     message.delete();
-    if (role.hasPermission(checkAdmin)){
+    if (role.hasPermission(permission, checkAdmin)){
     message.channel.send({
         embed: {
             author: {
