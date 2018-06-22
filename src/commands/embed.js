@@ -1,7 +1,6 @@
 exports.run = (client, message, args) => {
     args = args.join(' ');
     message.delete();
-    if (role.hasPermission(permission, checkAdmin)){
     message.channel.send({
         embed: {
             author: {
@@ -11,8 +10,5 @@ exports.run = (client, message, args) => {
             color: 3447003,
             description: args
         }
-    })} else {
-        message.channel.send("Vous ne pouvez pas faire ca!")
-        }
-   
+    });
 }
