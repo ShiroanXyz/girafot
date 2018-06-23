@@ -13,6 +13,6 @@ exports.run = (client, message, args) => {
         }
     })} else {
         message.channel.send("Vous n'avez pas le droit");
-        message.delete(1000);
+        message.delete(10);
      }
 }
