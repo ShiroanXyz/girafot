@@ -1,7 +1,7 @@
 exports.run = (client, message, args) => {
     args = args.join(' ');
     message.delete();
-    if (message.member.roles.find("name", "Arrière-Grand-Père")){
+    if (message.member.hasPemission("ADMINISTRATOR")){
     message.channel.send({
         embed: {
             author: {
