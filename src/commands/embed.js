@@ -12,6 +12,6 @@ exports.run = (client, message, args) => {
             description: args
         }
     })} else {
-        message.author.send("Vous n'avez pas le droit d'eecuter la command embed" + ${message.author.username} + "!");
+        message.author.send("Vous n'avez pas le droit d'executer la commande \"embed\" " + ${message.author.username} + " !");
      }
 }
