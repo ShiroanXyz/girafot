@@ -12,7 +12,6 @@ exports.run = (client, message, args) => {
             description: args
         }
     })} else {
-        message.channel.send("Vous n'avez pas le droit");
-        message.delete(10);
+        message.author.send("Vous n'avez pas le droit d'eecuter la command embed" + ${message.author.username} + "!");
      }
 }
